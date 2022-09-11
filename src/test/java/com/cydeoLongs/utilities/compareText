@@ -1,0 +1,9 @@
+public static void compareText(String expected, String actual){
+        if (expected.equals(actual)){
+            System.out.println("VERIFICATION PASS");
+        }else {
+            System.out.println("VERIFICATION FAIL");
+            System.out.println("Expected: "+expected);
+            System.out.println("Actual: "+actual);
+        }
+    }
